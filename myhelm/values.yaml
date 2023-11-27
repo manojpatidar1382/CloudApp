@@ -88,7 +88,7 @@ volumes:
 # Additional volumeMounts on the output Deployment definition.
 volumeMounts: 
   - name: sslvol
-    mountPath: /opt
+    mountPath: /app/ssl
     readOnly: true
 
 nodeSelector: {}
