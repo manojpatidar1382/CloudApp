@@ -82,7 +82,7 @@ autoscaling:
 volumes: 
   name: ssl-vol
   secret:
-    secretName: ssl-secret
+    secretName: sslsecret
     optional: false
 
 # Additional volumeMounts on the output Deployment definition.
