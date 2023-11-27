@@ -1,7 +1,7 @@
 server:
   ssl:
     key-store-type: JKS
-    key-store: /opt/cert/sslkey.jks
+    key-store: /opt/sslkey.jks
     key-store-password: password
     key-alias: sslkey
     enabled: true 
