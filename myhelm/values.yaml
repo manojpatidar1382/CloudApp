@@ -80,16 +80,16 @@ autoscaling:
 
 # Additional volumes on the output Deployment definition.
 volumes: 
-  name: ssl-vol
-  secret:
-    secretName: sslsecret
-    optional: false
+  - name: sslvol
+    secret:
+      secretName: sslsecret
+      optional: false
 
 # Additional volumeMounts on the output Deployment definition.
 volumeMounts: 
-  name: ssl-vol
-  mountPath: /opt/cert
-  readOnly: true
+  - name: sslvol
+    mountPath: /opt/cert
+    readOnly: true
 
 nodeSelector: {}
 
