@@ -2,6 +2,6 @@ spring:
   data:
     mongodb:
       #uri: mongodb://localhost:27017/dev
-      uri: mongodb+srv://adminuser:password123@mongo-nodeport-svc:27017/dev
+      uri: mongodb+srv://adminuser:password123@mongo-nodeport-svc.manoj.svc.cluster.local:27017/dev
     
     
