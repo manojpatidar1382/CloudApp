@@ -1,10 +1,6 @@
-server:
-  ssl:
-    key-store-type: JKS
-    key-store: /app/ssl/sslsecret.jks
-    key-store-password: password
-    key-alias: sslkey
-    enabled: true 
-    
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/dev    
     
     
