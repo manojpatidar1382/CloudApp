@@ -1,6 +1,6 @@
 spring:
   data:
     mongodb:
-      uri: mongodb://adminuser:password123@mongo-nodeport-svc:27017?authSource=dev
+      uri: mongodb://adminuser:password123@mongo-nodeport-svc:27017/?authSource=dev
     
     
