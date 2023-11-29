@@ -1,6 +1,6 @@
 spring:
   data:
     mongodb:
-      uri: mongodb://localhost:27017/dev    
+      uri: mongodb://mongo-nodeport-svc:27017/dev    
     
     
